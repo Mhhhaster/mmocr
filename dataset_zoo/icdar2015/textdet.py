@@ -1,5 +1,5 @@
-data_root = 'data/icdar2015'
-cache_path = 'data/cache'
+data_root = '/apdcephfs/private_yangtzeliao/mmocr/data/icdar2015'
+cache_path = '/apdcephfs/private_yangtzeliao/mmocr/data/cache'
 train_preparer = dict(
     obtainer=dict(
         type='NaiveDataObtainer',

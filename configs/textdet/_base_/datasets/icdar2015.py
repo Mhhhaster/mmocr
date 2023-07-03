@@ -1,4 +1,5 @@
-icdar2015_textdet_data_root = 'data/icdar2015'
+icdar2015_textdet_data_root = '/apdcephfs/private_yangtzeliao/dataset/icdar2015'  #CCPD
+#icdar2015_textrecog_data_root = '/apdcephfs/private_yangtzeliao/dataset/ocrdata/data/icdar2015' #icdar
 
 icdar2015_textdet_train = dict(
     type='OCRDataset',
@@ -9,7 +10,7 @@ icdar2015_textdet_train = dict(
 
 icdar2015_textdet_test = dict(
     type='OCRDataset',
-    data_root=icdar2015_textdet_data_root,
+    data_root=icdar2015_textdet_data_root, 
     ann_file='textdet_test.json',
     test_mode=True,
     pipeline=None)

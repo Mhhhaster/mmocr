@@ -1,0 +1,11 @@
+{
+    "Token":"OUDgqhSK2F0HuhxrCA4ICQ", 
+    "business_flag": "youtu_hefei", 
+    "model_local_file_path": "/root/workspace/mmocr",
+    "host_num": 1,
+    "host_gpu_num": 1,
+    "image_full_name": "mirrors.tencent.com/yangtzeliao_ocr/mmocr:6.26",
+    "readable_name": "ccpd-pse-4gpu_low_youtu",
+    "exec_start_in_all_mpi_pods": true, 
+    "is_elasticity": true
+}

@@ -25,6 +25,8 @@ model = dict(
 icdar2015_textdet_train.pipeline = _base_.train_pipeline
 icdar2015_textdet_test.pipeline = _base_.test_pipeline
 
+#devcloud上训练CCPD时batchsize只能设置为1
+#V100上先设置为16
 train_dataloader = dict(
     batch_size=16,
     num_workers=8,

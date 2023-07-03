@@ -1,0 +1,9 @@
+{
+    "Token":"OUDgqhSK2F0HuhxrCA4ICQ", 
+    "business_flag": "modelzoo", 
+    "model_local_file_path": "/root/workspace/mmocr",
+    "host_num": 1,
+    "host_gpu_num":1,
+    "image_full_name": "mirrors.tencent.com/yangtzeliao_ocr/mmocr:6.26",
+    "readable_name": "ccpdtest-pse-4gpu_high_modelzoo"
+}

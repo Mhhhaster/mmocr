@@ -1,0 +1,1 @@
+python tools/train.py configs/textdet/psenet/psenet_resnet50-oclip_fpnf_600e_icdar2015.py --work-dir /apdcephfs/private_yangtzeliao/work_dir

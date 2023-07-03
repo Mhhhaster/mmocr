@@ -1,5 +1,5 @@
 
-#!/usr/bin/env bash
+#!/bin/bash
 
 CONFIG=$1
 GPUS=$2

@@ -11,9 +11,13 @@ from mmengine.runner import Runner
 def parse_args():
     parser = argparse.ArgumentParser(description='Test (and eval) a model')
     parser.add_argument('config', help='Test config file path')
-    parser.add_argument('checkpoint', help='Checkpoint file')
+    parser.add_argument(
+        '--checkpoint', 
+        default='/apdcephfs/private_yangtzeliao/work_dir/ccpd_8gpu/epoch_20.pth',
+        help='Checkpoint file')
     parser.add_argument(
         '--work-dir',
+        default='/apdcephfs/private_yangtzeliao/work_dir/ccpd_4gpu_test',
         help='The directory to save the file containing evaluation metrics')
     parser.add_argument(
         '--save-preds',

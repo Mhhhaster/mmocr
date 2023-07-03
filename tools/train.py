@@ -13,9 +13,14 @@ from mmengine.runner import Runner
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a model')
     parser.add_argument('config', help='Train config file path')
-    parser.add_argument('--work-dir', help='The dir to save logs and models')
     parser.add_argument(
-        '--resume', action='store_true', help='Whether to resume checkpoint.')
+        '--work-dir', 
+        default='/apdcephfs/private_yangtzeliao/work_dir/ccpd_8gpu',
+        help='The dir to save logs and models')
+    parser.add_argument(
+        '--resume', 
+        action='store_true', 
+        help='Whether to resume checkpoint.')
     parser.add_argument(
         '--amp',
         action='store_true',

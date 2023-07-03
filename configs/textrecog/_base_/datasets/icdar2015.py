@@ -1,4 +1,4 @@
-icdar2015_textrecog_data_root = 'data/icdar2015'
+icdar2015_textrecog_data_root = '/apdcephfs/private_yangtzeliao/mmocr/data/icdar2015'
 
 icdar2015_textrecog_train = dict(
     type='OCRDataset',
